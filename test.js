@@ -12,7 +12,7 @@ passed &= Math.round(calcJaroWincklerDistance('DUANE','DWAYNE')*100) == 84;
 
 passed &= Math.round(calcJaroWincklerDistance('DIXON','DICKSONX')*100) == 81;
 
-if(!passed){
+if(passed){
     console.log('Test passed')
 }else{
     throw new Error('Test failed')
